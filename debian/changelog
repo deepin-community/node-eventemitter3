@@ -1,5 +1,58 @@
-template-repository (1.0-1) unstable; urgency=medium
+node-eventemitter3 (4.0.7-3) unstable; urgency=medium
 
-  * Initial release
+  * Team upload
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + node-eventemitter3: Add Multi-Arch: foreign.
+  * Update standards version to 4.6.1, no changes needed.
+
+  [ Yadd ]
+  * Replace /releases by /tags in GitHub urls
+
+ -- Yadd <yadd@debian.org>  Mon, 31 Oct 2022 09:10:24 +0100
+
+node-eventemitter3 (4.0.7-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ lintian-brush ]
+  * Set upstream metadata fields: Bug-Submit
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata
+    (already present in machine-readable debian/copyright)
+  * Update standards version to 4.6.0, no changes needed
+
+  [ Yadd ]
+  * Fix filenamemangle
+  * Fix GitHub tags regex
+  * Use dh-sequence-nodejs instead of pkg-js-tools
+  * Drop dependency to nodejs
+  * Enable upstream test (mocha)
+
+ -- Yadd <yadd@debian.org>  Sun, 07 Nov 2021 18:16:51 +0100
+
+node-eventemitter3 (4.0.7-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version 4.0.7
+
+ -- Andrius Merkys <merkys@debian.org>  Mon, 31 Aug 2020 02:31:50 -0400
+
+node-eventemitter3 (4.0.5-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version 4.0.5
+
+ -- Andrius Merkys <merkys@debian.org>  Mon, 24 Aug 2020 02:48:50 -0400
+
+node-eventemitter3 (4.0.4-2) unstable; urgency=medium
+
+  * Team upload.
+  * Bumping debhelper-compat (no changes).
+
+ -- Andrius Merkys <merkys@debian.org>  Tue, 21 Jul 2020 23:07:10 -0400
+
+node-eventemitter3 (4.0.4-1) unstable; urgency=low
+
+  * Initial release (Closes: #961243)
+
+ -- Harley Swick <fancycade@protonmail.com>  Thu, 21 May 2020 12:10:17 -0500
