@@ -1,0 +1,5 @@
+version=4
+opts=\
+dversionmangle=auto,\
+filenamemangle=s/.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-eventemitter3-$1/ \
+ https://github.com/primus/eventemitter3/tags .*/archive/.*/v?([\d\.]+).tar.gz
