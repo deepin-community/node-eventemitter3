@@ -1,0 +1,3 @@
+Tests depend on node-assume, which is not yet packaged (#962635):
+
+mocha spec --timeout 10000 test/test.js
